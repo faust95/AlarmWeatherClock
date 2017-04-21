@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/new/Icons">
+        <file>clock.png</file>
+        <file>weather-rain.png</file>
+        <file>weather-rainy.png</file>
+        <file>weather-rainy2.png</file>
+        <file>weather-snow.png</file>
+        <file>weather-sunny.png</file>
+        <file>weather-few_clouds.png</file>
+        <file>weather-thunderstorm.png</file>
+        <file>rain_shower.png</file>
+    </qresource>
+    <qresource prefix="/new/sounds">
+        <file>alarm.mp3</file>
+        <file>blitz_alarm.mp3</file>
+        <file>blitz2_alarm.mp3</file>
+        <file>storm_alarm.mp3</file>
+        <file>storm2_alarm.mp3</file>
+        <file>sunny_clouds.mp3</file>
+        <file>winter_alarm.mp3</file>
+    </qresource>
+</RCC>

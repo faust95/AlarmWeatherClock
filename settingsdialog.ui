@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SettingsDialog</class>
+ <widget class="QDialog" name="SettingsDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QGroupBox" name="timeSettingsgroupBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>141</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Time Settings</string>
+   </property>
+   <widget class="QRadioButton" name="amPMButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>82</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>AM/PM</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="twentyHourButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>91</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>24 Hours Time</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="applicationSettingsgroupBox">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>20</y>
+     <width>151</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Application Settings</string>
+   </property>
+   <widget class="QCheckBox" name="showWindowcheckBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>131</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Show Window on Load</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="AmPmTimeWarningcheckBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>111</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>AM/PM Warning</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="weatherSettingsgroupBox">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>170</y>
+     <width>251</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Weather Info Settings</string>
+   </property>
+   <widget class="QCheckBox" name="showWeatherInfocheckBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>131</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Show Weather Info On</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="saveSettingsButton">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>270</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancelSettingsButton">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>270</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cancel</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
